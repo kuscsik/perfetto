@@ -4,3 +4,4 @@ out/release/traced_probes usr/sbin
 out/release/perfetto usr/bin
 debian/traced.service lib/systemd/system
 debian/traced-probes.service lib/systemd/system
+sdk/perfetto.h usr/include

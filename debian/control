@@ -1,13 +1,18 @@
 Source: perfetto
-Section: unknown
+Section: debug
 Priority: optional
-Maintainer: Sami Kyostila <skyostil@google.com>
-Build-Depends: debhelper (>= 9)
+Maintainer: Zoltan Kuscsik <kuscsik@gmail.com>
 Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9),
+  git,
+  python3,
+  python2.7-minimal,
+  zlib1g-dev,
+  zlib1g
+
 Homepage: https://android.googlesource.com/platform/external/perfetto/
 Vcs-Git: https://android.googlesource.com/platform/external/perfetto/
 Vcs-Browser: https://android.googlesource.com/platform/external/perfetto/
-
 Package: perfetto
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}

@@ -1,5 +1,17 @@
-perfetto (0.1-1) unstable; urgency=medium
+perfetto (0.1-2ubuntu4) bionic; urgency=medium
+
+  *  Updated python requirement
+
+ -- Zoltan Kuscsik <kuscsik@gmail.com>  Tue, 06 Jul 2021 17:21:17 +0200
+
+perfetto (0.1-2ubuntu3) bionic; urgency=medium
+
+  * Added include file 
+
+ -- Zoltan Kuscsik <kuscsik@gmail.com>  Tue, 06 Jul 2021 13:32:49 +0200
+
+perfetto (0.1-1) bionic; urgency=medium
 
   * Initial release
 
- -- Sami Kyostila <skyostil@google.com>  Mon, 15 Jan 2018 23:23:25 +0000
+ -- Zoltan Kuscsik <kuscsik@gmail.com>  Mon, 15 Jan 2018 23:23:25 +0000
